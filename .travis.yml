@@ -1,0 +1,14 @@
+language: python
+python:
+- '2.7'
+install:
+- python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
+script:
+- platformio ci src --project-conf platformio.ini --lib lib
+notifications:
+  slack:
+    secure: G22HW6ZcjK1aznuLtEtyEaUrhDccwLswLyWk0aYUGpNBXeQPXgnTn/2sXgo1KAmXKLdT07dzsJhgxRkx8h7VfHYkTld637lgklYE4ozqesQwDS+w6iMcT8ab6MZNdfHp1TUwFaHcZ4RDG9Hd4l6pRCf6YU1bX5Sbxz8/KIi9mnbHSJkEsInc4St9fNh90lagXF0sBNHAQojCr9r0k33wIj/xh2Tzcog9mNmbGj/C9kkdSsiO3q5VJMQbs9Ey/frHaDvguTnQ48VGOb0v/H+HIUcpT218C26lalJwdggKwgIBnAg2tzjzd69cJT5UbrcWgXADi5y+u5F54e6Wa73KxFrU3kZIrKqwNlwA5DeDDhurIhE3ZebOjSmVl+h4Sv+IDFUrTEhDHd895NgWA8nh/XQQP38stvIjWgTWuOZtzaI1ABtgkIt1+LyVNG1Om/fayTkXd1C0nSz1FfFbkwDbO8PzEfzGXLk1IW6e1HR86NlhZ+i6qgtCDGbxkLmhLdoAy+lKsW/1GdyEzI+6YFPIpUyeSQbXLo8jtYOsZapxfoAW4Vtj5dolLpSe0AgdS4t5v7KmoCsWVPa1TPBduiM5mNnutqc1VZdTkGijg1UPuUfxlXexUKZ3roqMY2V5VHtz5SCe8ZeZsL5slno+AieIxG3f3DaSctcTAcb4mdWe/Ps=
+    
+    # test
+    
+    #d dasd

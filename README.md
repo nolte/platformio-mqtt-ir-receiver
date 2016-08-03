@@ -52,7 +52,7 @@ Ir Receiver
  platformio run -target upload
 ```
 
-# Open Tasks
+# Open Tasks 
 
  * using [platformio build_flags](http://docs.platformio.org/en/latest/projectconf.html#build-flags)
  * Refectore MqttDeviceHealthCheck
